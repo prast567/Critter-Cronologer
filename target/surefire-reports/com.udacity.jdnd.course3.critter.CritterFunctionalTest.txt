@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.udacity.jdnd.course3.critter.CritterFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.727 s <<< FAILURE! - in com.udacity.jdnd.course3.critter.CritterFunctionalTest
+testFindScheduleByEntities  Time elapsed: 0.114 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[PETTING]> but was: <[SHAVING, PETTING]>
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.compareSchedules(CritterFunctionalTest.java:300)
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindScheduleByEntities(CritterFunctionalTest.java:230)
+
